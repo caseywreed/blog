@@ -1,14 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
 img {
   max-width: 400px;
 }
 
 .red_outline {
   border: 1px solid red;
-  /*padding: 3px 4px; */
+  padding: 25px 11px; 
   background: grey;
   width: 30%;
   display: inline-block;
-  margin: 0 1%;
+  margin: 22px;
 }
 
 h1 {
@@ -17,6 +21,22 @@ h1 {
   font-family: Share Tech;
 }
 
-article {
-  margin: auto auto;
+#article1 {
+  background: blue;
+}
+
+#article2 {
+  background: yellow;
+}
+
+#article3 {
+  background: red;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  box-shadow: 8px 8px;
 }
