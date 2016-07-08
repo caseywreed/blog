@@ -20,6 +20,35 @@
     </ul>
   </header>
 
+<!-- Name and Email form -->
+
+  <form action="">
+    
+    <fieldset>
+      <label for="firstname" class="hidden">First Name</label>
+      <input type="text" name="firstname" id="firstname" required placeholder="Type your first name">
+      
+      <label for="email" class="hidden">Email</label>
+      <input type="email" name="email" id="email" required placeholder="Type your email">    
+
+      <label for="age" class="hidden">Age</label>
+      <input type="number" name="age" id="age" required min="18" max="120" placeholder="65">
+    </fieldset>
+
+    <label for="bio" class="hidden">Your bio</label>
+    <textarea placeholder="A little about yourself" id="bio"></textarea>
+
+    <label for="favcolor" class="hidden">Favorite Color</label>
+    <input type="color" name="favcolor" id="favcolor" value="#00ff00">
+
+    <label for="url" class="hidden">Website</label>
+    <input type="url" name="website" id="website" placeholder="What's your website?" required>
+
+
+    <input type="submit" value="How Lame Are You?" name="submit">
+<!--     <button type="submit">How Cool Are You?</button> -->
+  </form>
+
   <!-- This is the first section -->
 
   <article id="article1">

@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+.hidden {
+  display: none;
+}
+
 img {
   max-width: 400px;
 }
@@ -37,6 +41,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  box-shadow: 8px 8px;
+p {
+  background: pink;
 }
