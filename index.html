@@ -20,7 +20,7 @@
     </ul>
   </header>
 
-<!-- Name and Email form -->
+<!-- Top Nav Form -->
 
   <form action="">
     
@@ -42,11 +42,39 @@
     <input type="color" name="favcolor" id="favcolor" value="#00ff00">
 
     <label for="url" class="hidden">Website</label>
-    <input type="url" name="website" id="website" placeholder="What's your website?" required>
+    <input type="url" class="min_input" name="website" id="website" placeholder="What's your website?" required>
 
+    <label for="country" class="hidden">Country</label>
+    <input type="text" name="country" value="USA" readonly id="country">
 
-    <input type="submit" value="How Lame Are You?" name="submit">
-<!--     <button type="submit">How Cool Are You?</button> -->
+    <fieldset>
+      <label for="peanuts">Peanuts</label>
+      <input type="checkbox" id="peanuts" name="peanuts" value="peanuts">
+      <label for="shellfish">Shellfish</label>
+      <input type="checkbox" id="shellfish" name="shellfish" value="shellfish">
+      <label for="soy">Soy</label>
+      <input type="checkbox" id="soy" name="soy" value="soy">
+      <label for="kiwi">Kiwi</label>
+      <input type="checkbox" id="kiwi" name="kiwi" value="kiwi">
+    </fieldset>
+
+<!-- Favorite Color -->
+
+    <fieldset>
+     
+      <label for="red">Red</label>
+      <input type="radio" name="rgb" id="red" value="red" checked>
+      
+      <label for="green">Green</label>
+      <input type="radio" name="rgb" id="green" value="green">
+      
+      <label for="blue">Blue</label>
+      <input type="radio" name="rgb" id="blue" value="blue">
+
+    </fieldset>
+
+    <input type="submit" value="Button" name="submit">
+
   </form>
 
   <!-- This is the first section -->
